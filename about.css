@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ body{
+    background-color: rgb(28, 17, 14);
+ }
+ a{
+    color: white;
+    text-decoration: none;
+ }
+
+ /* nav section */
+ .hope{
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+ }
+.hope .logo{
+    font-size: 40px;
+    font-weight: 700;
+    float: right;
+}
+.hope ul{
+    display: flex;
+
+}
+.hope ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+.hope ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s;
+}
+.hope ul li:hover{
+    color: rgb(235, 20, 124);
+}
+
+
+/* fyuftiyioyouiouio */
+.par{
+    color: white;
+}
+h1{
+    margin-left: 40%;
+    color: yellow;
+}
+p{
+    margin-left: 20%;
+}
+
+
+
