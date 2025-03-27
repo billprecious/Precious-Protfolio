@@ -8,11 +8,11 @@
     background-color: white;
  }
  a{
-    color: black;
+    color: #000;
     text-decoration: none;
  }
  .hope{
-    position: relative;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
@@ -21,6 +21,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background-color: whitesmoke;
  }
 .hope .logo{
     font-size: 40px;
@@ -204,27 +205,18 @@ p{
  /* hr */
  hr{
     width: 70%;
+    margin-left: 18%;
  }
 
 
-/* work */
-.wor{
-    margin-left: 45%;
-}
-.new a{
-    font-size: 40px;
-    font-weight: 700;
+/* work logos */
+
+.head{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 20%;
 }
 
-
-/* icon */
-.cov{
-    margin-left: 42%;
-}
-.cov a{
-    font-size: 40px;
-    font-weight: 700;
-}
 .box{
     background-color: wheat;
     font-size: 19px;
@@ -241,4 +233,33 @@ p{
 .map{
     text-align: center;
     background-color: wheat;
+    padding: 25px 9%;
+}
+
+.form{
+    padding: 25px 9%;
+    width: 100%;
+}
+form p{
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+input{
+    width: 100%;
+    border: 1px solid rgb(20, 214, 20);
+    padding: 15px;
+    font-size: 15px;
+
+}
+input[type=submit]{
+    background-color:  rgb(20, 214, 20);
+    font-size: 25px;
+    color: white;
+}
+textarea{
+    width: 100%;
+    height: 50vh;
+    border: 1px solid rgb(20, 214, 20);
 }
