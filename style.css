@@ -45,10 +45,9 @@
 }
 .now{
     display: flex;
-    align-items: center;
-    height: 100vh;
-    padding: 50px 9% 0;
-    color: black;
+    justify-content: center;
+    margin-top: 160px;
+    gap: 230px;
 }
 /* span */
 
@@ -92,7 +91,6 @@
 .now .but h2{
     display: inline-block;
     font-size: 32px;
-    margin-top: -10px;
 }
 .now .but p{
     font-size: 16px;
@@ -146,9 +144,7 @@
     border-radius: 50%;
 }
 
-img{
-    margin-left: 125%;
-}
+
 .home.img .img.box .img.item {
     position: relative;
     width: 100%;
@@ -216,6 +212,13 @@ p{
     text-align: center;
     font-weight: 20%;
 }
+/* wrk */
+.CARD{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
 
 .box{
     background-color: wheat;
@@ -224,16 +227,19 @@ p{
     text-align: center;
 }
 .box a{
-    font-size: 15px;
+    font-size: 18px;
 }
 .box p{
     text-align: center;
+    margin-right: 20%;
 }
 
 .map{
     text-align: center;
-    background-color: wheat;
     padding: 25px 9%;
+}
+iframe{
+    background-color: wheat;
 }
 
 .form{
@@ -262,4 +268,19 @@ textarea{
     width: 100%;
     height: 50vh;
     border: 1px solid rgb(20, 214, 20);
+}
+
+.btn-primary{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin-left: 17%;
+    border-radius: 5%;
+}
+
+.badge-light{
+    background-color: white;
+    color: #000;
+    padding: 2px;
+    border-radius: 5%;
 }
